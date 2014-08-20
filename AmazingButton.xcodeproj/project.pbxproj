@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219927B619A433D500AC7B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219927B519A433D500AC7B82 /* Foundation.framework */; };
+		219927B819A433D500AC7B82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219927B719A433D500AC7B82 /* CoreGraphics.framework */; };
+		219927BA19A433D500AC7B82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219927B919A433D500AC7B82 /* UIKit.framework */; };
+		219927C019A433D500AC7B82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219927BE19A433D500AC7B82 /* InfoPlist.strings */; };
+		219927C219A433D500AC7B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219927C119A433D500AC7B82 /* main.m */; };
+		219927C619A433D500AC7B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219927C519A433D500AC7B82 /* AppDelegate.m */; };
+		219927C919A433D500AC7B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219927C719A433D500AC7B82 /* Main.storyboard */; };
+		219927CC19A433D500AC7B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219927CB19A433D500AC7B82 /* ViewController.m */; };
+		219927CE19A433D500AC7B82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219927CD19A433D500AC7B82 /* Images.xcassets */; };
+		219927D519A433D500AC7B82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219927D419A433D500AC7B82 /* XCTest.framework */; };
+		219927D619A433D500AC7B82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219927B519A433D500AC7B82 /* Foundation.framework */; };
+		219927D719A433D500AC7B82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219927B919A433D500AC7B82 /* UIKit.framework */; };
+		219927DF19A433D500AC7B82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219927DD19A433D500AC7B82 /* InfoPlist.strings */; };
+		219927E119A433D500AC7B82 /* AmazingButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219927E019A433D500AC7B82 /* AmazingButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219927D819A433D500AC7B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219927AA19A433D500AC7B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219927B119A433D500AC7B82;
+			remoteInfo = AmazingButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219927B219A433D500AC7B82 /* AmazingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219927B519A433D500AC7B82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		219927B719A433D500AC7B82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		219927B919A433D500AC7B82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		219927BD19A433D500AC7B82 /* AmazingButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmazingButton-Info.plist"; sourceTree = "<group>"; };
+		219927BF19A433D500AC7B82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		219927C119A433D500AC7B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219927C319A433D500AC7B82 /* AmazingButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmazingButton-Prefix.pch"; sourceTree = "<group>"; };
+		219927C419A433D500AC7B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		219927C519A433D500AC7B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		219927C819A433D500AC7B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219927CA19A433D500AC7B82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		219927CB19A433D500AC7B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		219927CD19A433D500AC7B82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		219927D319A433D500AC7B82 /* AmazingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219927D419A433D500AC7B82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		219927DC19A433D500AC7B82 /* AmazingButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AmazingButtonTests-Info.plist"; sourceTree = "<group>"; };
+		219927DE19A433D500AC7B82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		219927E019A433D500AC7B82 /* AmazingButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219927AF19A433D500AC7B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219927B819A433D500AC7B82 /* CoreGraphics.framework in Frameworks */,
+				219927BA19A433D500AC7B82 /* UIKit.framework in Frameworks */,
+				219927B619A433D500AC7B82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219927D019A433D500AC7B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219927D519A433D500AC7B82 /* XCTest.framework in Frameworks */,
+				219927D719A433D500AC7B82 /* UIKit.framework in Frameworks */,
+				219927D619A433D500AC7B82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219927A919A433D500AC7B82 = {
+			isa = PBXGroup;
+			children = (
+				219927BB19A433D500AC7B82 /* AmazingButton */,
+				219927DA19A433D500AC7B82 /* AmazingButtonTests */,
+				219927B419A433D500AC7B82 /* Frameworks */,
+				219927B319A433D500AC7B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219927B319A433D500AC7B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219927B219A433D500AC7B82 /* AmazingButton.app */,
+				219927D319A433D500AC7B82 /* AmazingButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219927B419A433D500AC7B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219927B519A433D500AC7B82 /* Foundation.framework */,
+				219927B719A433D500AC7B82 /* CoreGraphics.framework */,
+				219927B919A433D500AC7B82 /* UIKit.framework */,
+				219927D419A433D500AC7B82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219927BB19A433D500AC7B82 /* AmazingButton */ = {
+			isa = PBXGroup;
+			children = (
+				219927C419A433D500AC7B82 /* AppDelegate.h */,
+				219927C519A433D500AC7B82 /* AppDelegate.m */,
+				219927C719A433D500AC7B82 /* Main.storyboard */,
+				219927CA19A433D500AC7B82 /* ViewController.h */,
+				219927CB19A433D500AC7B82 /* ViewController.m */,
+				219927CD19A433D500AC7B82 /* Images.xcassets */,
+				219927BC19A433D500AC7B82 /* Supporting Files */,
+			);
+			path = AmazingButton;
+			sourceTree = "<group>";
+		};
+		219927BC19A433D500AC7B82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219927BD19A433D500AC7B82 /* AmazingButton-Info.plist */,
+				219927BE19A433D500AC7B82 /* InfoPlist.strings */,
+				219927C119A433D500AC7B82 /* main.m */,
+				219927C319A433D500AC7B82 /* AmazingButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		219927DA19A433D500AC7B82 /* AmazingButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				219927E019A433D500AC7B82 /* AmazingButtonTests.m */,
+				219927DB19A433D500AC7B82 /* Supporting Files */,
+			);
+			path = AmazingButtonTests;
+			sourceTree = "<group>";
+		};
+		219927DB19A433D500AC7B82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219927DC19A433D500AC7B82 /* AmazingButtonTests-Info.plist */,
+				219927DD19A433D500AC7B82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219927B119A433D500AC7B82 /* AmazingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219927E419A433D500AC7B82 /* Build configuration list for PBXNativeTarget "AmazingButton" */;
+			buildPhases = (
+				219927AE19A433D500AC7B82 /* Sources */,
+				219927AF19A433D500AC7B82 /* Frameworks */,
+				219927B019A433D500AC7B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingButton;
+			productName = AmazingButton;
+			productReference = 219927B219A433D500AC7B82 /* AmazingButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219927D219A433D500AC7B82 /* AmazingButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219927E719A433D500AC7B82 /* Build configuration list for PBXNativeTarget "AmazingButtonTests" */;
+			buildPhases = (
+				219927CF19A433D500AC7B82 /* Sources */,
+				219927D019A433D500AC7B82 /* Frameworks */,
+				219927D119A433D500AC7B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219927D919A433D500AC7B82 /* PBXTargetDependency */,
+			);
+			name = AmazingButtonTests;
+			productName = AmazingButtonTests;
+			productReference = 219927D319A433D500AC7B82 /* AmazingButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219927AA19A433D500AC7B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Wang;
+				TargetAttributes = {
+					219927D219A433D500AC7B82 = {
+						TestTargetID = 219927B119A433D500AC7B82;
+					};
+				};
+			};
+			buildConfigurationList = 219927AD19A433D500AC7B82 /* Build configuration list for PBXProject "AmazingButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219927A919A433D500AC7B82;
+			productRefGroup = 219927B319A433D500AC7B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219927B119A433D500AC7B82 /* AmazingButton */,
+				219927D219A433D500AC7B82 /* AmazingButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219927B019A433D500AC7B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219927CE19A433D500AC7B82 /* Images.xcassets in Resources */,
+				219927C019A433D500AC7B82 /* InfoPlist.strings in Resources */,
+				219927C919A433D500AC7B82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219927D119A433D500AC7B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219927DF19A433D500AC7B82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219927AE19A433D500AC7B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219927CC19A433D500AC7B82 /* ViewController.m in Sources */,
+				219927C619A433D500AC7B82 /* AppDelegate.m in Sources */,
+				219927C219A433D500AC7B82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219927CF19A433D500AC7B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219927E119A433D500AC7B82 /* AmazingButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219927D919A433D500AC7B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219927B119A433D500AC7B82 /* AmazingButton */;
+			targetProxy = 219927D819A433D500AC7B82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219927BE19A433D500AC7B82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219927BF19A433D500AC7B82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		219927C719A433D500AC7B82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219927C819A433D500AC7B82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219927DD19A433D500AC7B82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219927DE19A433D500AC7B82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219927E219A433D500AC7B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		219927E319A433D500AC7B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219927E519A433D500AC7B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazingButton/AmazingButton-Prefix.pch";
+				INFOPLIST_FILE = "AmazingButton/AmazingButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		219927E619A433D500AC7B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazingButton/AmazingButton-Prefix.pch";
+				INFOPLIST_FILE = "AmazingButton/AmazingButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		219927E819A433D500AC7B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmazingButton.app/AmazingButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazingButton/AmazingButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AmazingButtonTests/AmazingButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		219927E919A433D500AC7B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmazingButton.app/AmazingButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmazingButton/AmazingButton-Prefix.pch";
+				INFOPLIST_FILE = "AmazingButtonTests/AmazingButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219927AD19A433D500AC7B82 /* Build configuration list for PBXProject "AmazingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219927E219A433D500AC7B82 /* Debug */,
+				219927E319A433D500AC7B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219927E419A433D500AC7B82 /* Build configuration list for PBXNativeTarget "AmazingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219927E519A433D500AC7B82 /* Debug */,
+				219927E619A433D500AC7B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219927E719A433D500AC7B82 /* Build configuration list for PBXNativeTarget "AmazingButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219927E819A433D500AC7B82 /* Debug */,
+				219927E919A433D500AC7B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219927AA19A433D500AC7B82 /* Project object */;
+}
