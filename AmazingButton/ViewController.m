@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "AmazingButton.h"
 
 @interface ViewController ()
-
+- (IBAction)click:(id)sender;
+@property (strong,nonatomic) AmazingButton *button;
 @end
 
 @implementation ViewController
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.button = [[AmazingButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
+    [self.view addSubview:self.button];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +31,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)click:(id)sender {
+    [self.button showAnimation];
+}
 @end
