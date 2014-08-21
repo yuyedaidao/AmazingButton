@@ -9,18 +9,19 @@
 #import <UIKit/UIKit.h>
 typedef enum{
     AmaButtonTypeNews,
-    AmaButtonTypeOrder,
-    AmaButtonTypeImage,
-    AmaButtonTypeVideo,
-    AmaButtonTypePost,
-    AmaButtonTypeAudio,
+//    AmaButtonTypeOrder,
+//    AmaButtonTypeImage,
+//    AmaButtonTypeVideo,
+//    AmaButtonTypePost,
+//    AmaButtonTypeAudio,
     AmaButtonTypeUser,
     AmaButtonTypeLocation,
     AmaButtonTypeMessage,
     AmaButtonTypeSetting,
+    AmaButtonTypeFodder
 } AmaButtonType;
 
 @interface AmazingButton : UIControl
-@property (nonatomic,strong) UIColor *color;
--(void)showAnimation;
+-(instancetype)initWithFrame:(CGRect)frame color:(UIColor *)color type:(AmaButtonType)type;
+-(void)show;
 @end
