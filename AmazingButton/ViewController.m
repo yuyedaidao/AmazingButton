@@ -29,7 +29,7 @@
     [self.view addSubview:button3];
     AmazingButton *button4 = [[AmazingButton alloc] initWithFrame:CGRectMake(195, 200, 50, 50) color:[UIColor purpleColor] type:AmaButtonTypeFodder];
     [self.view addSubview:button4];
-    AmazingButton *button5 = [[AmazingButton alloc] initWithFrame:CGRectMake(135, 300, 50, 50) color:[UIColor yellowColor] type:AmaButtonTypeNews];
+    AmazingButton *button5 = [[AmazingButton alloc] initWithFrame:CGRectMake(135, 300, 50, 50) color:[UIColor brownColor] type:AmaButtonTypeNews];
     [self.view addSubview:button5];
     
     self.buttons = [NSArray arrayWithObjects:button1,button2,button3,button4,button5,nil];
