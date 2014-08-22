@@ -7,4 +7,4 @@ AmazingButton
 *注意长宽要保持一致*
 
 ###效果图  
-!()
+!(https://github.com/yuyedaidao/AmazingButton/blob/master/AmazingButton/IMG_0215.PNG)
