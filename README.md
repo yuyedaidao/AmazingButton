@@ -4,4 +4,4 @@ AmazingButton
 
     AmazingButton *button = [[AmazingButton alloc] initWithFrame:CGRectMake(85, 100, 50, 50) color:[UIColor orangeColor]     type:AmaButtonTypeUser];
 
-**注意长宽要保持一致
+*注意长宽要保持一致*
